@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW02.Casting", "HW02.Casting\HW02.Casting.csproj", "{A705E4C5-7109-4AAD-AA24-5BFFBCF82239}"
 EndProject
@@ -60,11 +60,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW09.House", "HW09.House\HW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW09.Booking", "HW09.Booking\HW09.Booking.csproj", "{E29A0149-85D2-4D3C-A3F7-49CAF26A355C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW10.StudentAndTeacher", "HW10.StudentAndTeacher\HW10.StudentAndTeacher.csproj", "{7B695C70-3C58-4CE6-87EC-45190D26866C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW10.StudentAndTeacher", "HW10.StudentAndTeacher\HW10.StudentAndTeacher.csproj", "{7B695C70-3C58-4CE6-87EC-45190D26866C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW10.Catalog", "HW10.Catalog\HW10.Catalog.csproj", "{9EE647B0-15B6-4E26-AA28-572197D6F0A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW10.Catalog", "HW10.Catalog\HW10.Catalog.csproj", "{9EE647B0-15B6-4E26-AA28-572197D6F0A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW10.Salary", "HW10.Salary\HW10.Salary.csproj", "{CD420E41-0028-4D51-B6D3-BEE073BE57FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW10.Salary", "HW10.Salary\HW10.Salary.csproj", "{CD420E41-0028-4D51-B6D3-BEE073BE57FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW13.GetSong", "HW13.GetSong\HW13.GetSong.csproj", "{BDD3D38F-EEDA-45AA-84AD-7B5A0561A4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW13.CRUD", "HW13.CRUD\HW13.CRUD.csproj", "{AAB37CB1-07DD-4FC3-93EA-218E811BE4A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,6 +156,14 @@ Global
 		{CD420E41-0028-4D51-B6D3-BEE073BE57FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD420E41-0028-4D51-B6D3-BEE073BE57FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD420E41-0028-4D51-B6D3-BEE073BE57FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD3D38F-EEDA-45AA-84AD-7B5A0561A4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD3D38F-EEDA-45AA-84AD-7B5A0561A4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD3D38F-EEDA-45AA-84AD-7B5A0561A4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD3D38F-EEDA-45AA-84AD-7B5A0561A4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB37CB1-07DD-4FC3-93EA-218E811BE4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB37CB1-07DD-4FC3-93EA-218E811BE4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB37CB1-07DD-4FC3-93EA-218E811BE4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB37CB1-07DD-4FC3-93EA-218E811BE4A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
