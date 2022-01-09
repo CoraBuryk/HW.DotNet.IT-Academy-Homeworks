@@ -153,9 +153,7 @@ namespace HW09.Booking
                     default:
                         Console.WriteLine("Choose another hotel");
                         break;
-
                 }
-
                 Console.ReadKey();
             }
         }

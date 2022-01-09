@@ -27,7 +27,6 @@ namespace HW09.House
             get { return _door; }
             set { _door = value; }
         }
-
         public virtual void ShowData()
         {
             Console.WriteLine($"I am a house, my area is {_area} m2");
@@ -57,6 +56,5 @@ namespace HW09.House
         {
             Console.WriteLine($"I am a door, my color is {_color}");
         }
-
     }
 }

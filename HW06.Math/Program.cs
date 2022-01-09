@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace HW06.Math
@@ -16,7 +17,8 @@ namespace HW06.Math
                 if (index >= str2.Length)
                     return;
                 int num = (int)str2[index];
-                string[] strArray = str1.Split('+');
+                //string[] strArray = str1.Split('+');
+                List<string> strArray = new List<string>(str1.Split('+'));
                 string s1 = new string(strArray[0].Where<char>((Func<char, bool>)(t => char.IsDigit(t))).ToArray<char>());
                 string s2 = new string(strArray[1].Where<char>((Func<char, bool>)(q => char.IsDigit(q))).ToArray<char>());
                 Console.WriteLine(int.Parse(s1) + int.Parse(s2));
@@ -28,7 +30,8 @@ namespace HW06.Math
                 if (index >= str3.Length)
                     return;
                 int num = (int)str3[index];
-                string[] strArray = str1.Split('-');
+                //string[] strArray = str1.Split('-');
+                List<string> strArray = new List<string>(str1.Split('-'));
                 string s3 = new string(strArray[0].Where<char>((Func<char, bool>)(t => char.IsDigit(t))).ToArray<char>());
                 string s4 = new string(strArray[1].Where<char>((Func<char, bool>)(q => char.IsDigit(q))).ToArray<char>());
                 Console.WriteLine(int.Parse(s3) - int.Parse(s4));
@@ -40,7 +43,8 @@ namespace HW06.Math
                 if (index >= str4.Length)
                     return;
                 int num = (int)str4[index];
-                string[] strArray = str1.Split('*');
+                //string[] strArray = str1.Split('*');
+                List<string> strArray = new List<string>(str1.Split('*'));
                 string s5 = new string(strArray[0].Where<char>((Func<char, bool>)(t => char.IsDigit(t))).ToArray<char>());
                 string s6 = new string(strArray[1].Where<char>((Func<char, bool>)(q => char.IsDigit(q))).ToArray<char>());
                 Console.WriteLine(int.Parse(s5) * int.Parse(s6));
@@ -54,7 +58,8 @@ namespace HW06.Math
                 if (index < str5.Length)
                 {
                     int num = (int)str5[index];
-                    string[] strArray = str1.Split('/');
+                    //string[] strArray = str1.Split('/');
+                    List<string> strArray = new List<string>(str1.Split('/'));
                     string s7 = new string(strArray[0].Where<char>((Func<char, bool>)(t => char.IsDigit(t))).ToArray<char>());
                     string s8 = new string(strArray[1].Where<char>((Func<char, bool>)(q => char.IsDigit(q))).ToArray<char>());
                     Console.WriteLine(int.Parse(s7) / int.Parse(s8));

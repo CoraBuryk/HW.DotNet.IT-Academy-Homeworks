@@ -2,6 +2,7 @@
 using System.IO;
 using System.Globalization;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace HW06.FindMe
 {
@@ -12,9 +13,10 @@ namespace HW06.FindMe
             StreamReader TextReader = new StreamReader(@"C:\Users\vovab\Downloads\FindMe.txt", true);
             string textReaderResult = TextReader.ReadToEnd();
             TextReader.Dispose();
-            string[] array = textReaderResult.Split(' ');
+           //string[] array = textReaderResult.Split(' ');
+            List<string> array = new List<string>(textReaderResult.Split(' '));
 
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Count; i++)
             {
                 string arr = array[i];
                 char s = '\u001f';

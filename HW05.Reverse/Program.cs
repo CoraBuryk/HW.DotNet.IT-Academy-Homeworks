@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace HW05.Reverse
@@ -23,11 +24,14 @@ namespace HW05.Reverse
 
             Stopwatch stopwatch2 = new Stopwatch();
             stopwatch2.Start();
-            long[] res2 = new long[100];
+           // long[] res2 = new long[100];
+
+            List<long> res2 = new List<long>(100);
             Random random2 = new Random();
-            for (int j = 0; j < res2.Length; j++)
+            for (int j = 0; j < res2.Count; j++)
             {
-                Array.Reverse(res2);
+                res2.Reverse();
+                //Array.Reverse(res2);
                 res2[j] = random2.Next(100_000);
                 Console.WriteLine(res2[j]);
             }
